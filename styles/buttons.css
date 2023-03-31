@@ -1,0 +1,27 @@
+.btn_blue{
+    background-color: white;
+    border: 5px black ;
+    color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 16px;
+}
+.btn_blue:hover {
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+
+#aboutus {
+    background-color: white;
+    border: 5px black ;
+    color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 16px;
+}
+#aboutus:hover {
+    background-color: gray;
+    transition: 0.5s;
+    color: white;
+    }

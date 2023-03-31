@@ -1,0 +1,13 @@
+.footer
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 48px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+.footer p {
+margin-top: 3%;
+}

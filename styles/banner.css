@@ -1,0 +1,30 @@
+.banner {
+    background-image: url("../images/banner.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+}
+
+.banner h1 {
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.banner h2{
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.banner a {
+    margin-bottom: 5%;
+}
