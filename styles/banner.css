@@ -9,12 +9,11 @@
     align-items: center;
     font-family: 'Francois One', sans-serif;
     color: white;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 15px;
     border-radius: 10px;
     border-color: black;
-    border: 10px;
 }
 
 .banner h1 {
@@ -25,6 +24,110 @@
     text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
     1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
-.banner a {
-    margin-bottom: 5%;
+
+
+.bannersoutha {
+    background-image: url("../images/banner_southa.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.bannernortha {
+    background-image: url("../images/banner_northa.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+}
+.bannereurope {
+    background-image: url("../images/banner_europe.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+}
+.bannerasia {
+    background-image: url("../images/banner_asia.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+}
+.banneroceania {
+    background-image: url("../images/banner_oceania.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+}
+.partner {
+    background-image: url("../images/banner.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
 }

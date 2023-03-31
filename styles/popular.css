@@ -1,6 +1,6 @@
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 16px;
     margin-left: 30px;
     margin-right: 30px;
@@ -10,9 +10,10 @@
     border-radius: 7px;
     padding: 10px;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.35);
+    font-family: "Roboto";
 }
 .card_white img {
-    width: 100%;
+    width: 95%;
 }
 h3{
     font-family: "Roboto";
@@ -36,3 +37,33 @@ h5 {
 img {
     border-radius: 7px;
 }
+
+@media (min-width: 576px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+   }
+
+@media (min-width: 768px) { 
+    .cards {
+        grid-template-columns: 1fr;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ }
