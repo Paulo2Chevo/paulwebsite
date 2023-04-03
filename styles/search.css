@@ -26,43 +26,53 @@ li {
     font-family: "Robot";
 }
 ul {
-    margin-left: 20px;
-    margin-right: 20px;
     padding: 0px;
     font-family: "Roboto";
+    font-size: small;
 }
 nav ul{
     list-style-type: none;
 }
 nav li {
-    float: left;
-    width: 20%;
+    float: right;
+    width: 18%;
     text-align: center;
+    border-top-right-radius: 7px;
+    border-bottom: 2px solid red;
 }
+#hub {
+    float: left;
+    width: 10%;
+    text-align: center;
+    border-top-right-radius: 7px;
+    border-bottom: 2px solid red;
+}
+
 nav ul::after{
 content: "";
 display: table;
 clear: both;
 }
 nav {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: black;
     position: sticky;
     top: 0px;
-    border-radius: 7px;
 }
 nav a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
     font-family: "Roboto";
-    font-size: 200%;
+    font-size: 150%;
 }
 nav a:hover{
-color: black;
-border-bottom: 2px solid red;
-background-color: white;
+color: white;
+border-top: 2px solid red;
+border-left:2px solid red ;
+border-right: 2px solid red;
+background-color: black;
+border-top-right-radius: 7px;
+border-top-left-radius: 7px ;
 }

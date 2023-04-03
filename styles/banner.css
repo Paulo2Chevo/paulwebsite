@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .banner {
     background-image: url("../images/banner.jpg");
     height: 60vh;
@@ -39,7 +43,9 @@
     color: white;
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 15px;
     border-radius: 10px;
+    border-color: black;
 }
 
 .bannernortha {
@@ -58,11 +64,10 @@
     margin-top: 15px;
     border-radius: 10px;
     border-color: black;
-    border: 10px;
 }
 .bannereurope {
     background-image: url("../images/banner_europe.jpg");
-    height: 60vh;
+   height: 60vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -76,7 +81,6 @@
     margin-top: 15px;
     border-radius: 10px;
     border-color: black;
-    border: 10px;
 }
 .bannerasia {
     background-image: url("../images/banner_asia.jpg");
@@ -114,17 +118,17 @@
     border-color: black;
     border: 10px;
 }
-.partner {
-    background-image: url("../images/banner.jpg");
-    height: 60vh;
+.bannerau {
+    height: 35vh;
+    background-color: brown;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Francois One', sans-serif;
-    color: white;
+    font-family: 'Francois One', sans-serif; ;
+    color: black;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 15px;

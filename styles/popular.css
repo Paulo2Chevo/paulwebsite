@@ -67,3 +67,112 @@ img {
         grid-template-columns: 1fr 1fr 1fr;
     }
  }
+
+.pays {
+    margin-top: 15px;
+    background-color: white;
+    margin: 24px auto;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    color: black;
+    width: 105%;
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: 2px;
+}
+    
+.carte {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 48px;
+    width: 150%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.carteeu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 48px;
+    width: 150%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.carteas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 48px;
+    width: 150%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.cartesa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 48px;
+    width: 150%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.carteoc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 48px;
+    width: 150%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+
+    .countries {
+        display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    margin: 16px auto;
+    align-items: center;
+    
+    border-radius: 10px;
+    border: 0px solid rgb(0, 16, 99);
+}
+
+h2 {
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+  position: relative;
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(flèche); 
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.slider-arrow.left {
+  left: 0;
+}
+
+.slider-arrow.right {
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  }
+    
